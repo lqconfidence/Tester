@@ -1,0 +1,26 @@
+git init 创建一个本地空仓库
+git clone  从远程clone代码到本地
+git add 添加要提交的文件
+git commit -m "1111"提交修改
+git log  查看修改历史
+git log --pretty=oneline 简化查看的版本
+git reset --hard HEAD^   回退到上一个版本
+git reset --hard HEAD^^  回退到上上个版本
+git reset --hard HEAD^^^ 回退到上上上个版本
+git reset --hard HEAD~100 回退到之前第100个版本
+git reset --hard 1094a  返回到未来的版本
+git reflog 查看历史操作
+git status 查看当前文件状态
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销
+git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
+git rm 123.txt 
+git commit -m "123.txt" 从版本库删除文件
+git remote add origin git@github.com:michaelliao/learngit.git 远程连接
+git push -u origin master 推到远程库
+git clone git@github.com:michaelliao/gitskills.git 从远程为拉取代码
+
+github配置ssh：
+git config --global user.name "Luke.Deng"
+git config --global user.email  "xiangshuo1992@gmail.com"
+git config --list 查看当前Git环境所有配置，还可以配置一些命令别名之类的
