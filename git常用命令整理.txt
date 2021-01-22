@@ -24,3 +24,12 @@ github配置ssh：
 git config --global user.name "Luke.Deng"
 git config --global user.email  "xiangshuo1992@gmail.com"
 git config --list 查看当前Git环境所有配置，还可以配置一些命令别名之类的
+
+ssh-keygen -t rsa -C "lqconfidence@163.com"在本地生成sshkey
+
+cd ~/.ssh
+ls
+或者
+ll
+//看是否存在 id_rsa 和 id_rsa.pub文件，如果存在，说明已经有SSH Key
+
