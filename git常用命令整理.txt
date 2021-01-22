@@ -16,7 +16,7 @@ git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销
 git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
 git rm 123.txt 
 git commit -m "123.txt" 从版本库删除文件
-git remote add origin git@github.com:michaelliao/learngit.git 远程连接
+git remote add origin git@github.com:lqconfidence/Tester.git 远程连接
 git push -u origin master 推到远程库
 git clone git@github.com:michaelliao/gitskills.git 从远程为拉取代码
 
