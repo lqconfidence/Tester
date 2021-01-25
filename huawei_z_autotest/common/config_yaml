@@ -1,6 +1,0 @@
-loger:
-  name: mylog
-  log_level: DEBUG
-  s_level: DEBUG
-  file_path: C:\Users\zeng\Desktop\HW_Z_Project\huawei_z\loger\log_container
-  f_level: DEBUG
